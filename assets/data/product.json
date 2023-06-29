@@ -1,0 +1,303 @@
+{
+  "items":[
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/162303132447303472.jpeg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"아엠홈",
+
+      "title":"[단하루!사은품100%증정+쿠폰] 비침없는 도톰 레이스/쉬폰커튼(나비주름/핀형/봉집)",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[102],
+
+      "deli":{
+        "today":true,
+        "home":true,
+        "free":true
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/1554432441250_K6wX5dopzz.jpg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"퀵슬립",
+
+      "title":"Q4 유로탑 롤팩 매트리스 2size",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[101],
+
+      "deli":{
+        "today":false,
+        "home":true,
+        "free":true
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/165580847056056090.jpg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"휴도",
+
+      "title":"[5%쿠폰]편안한 제주 25cm 필로우탑 본넬스프링 침대 매트리스(싱글/슈퍼싱글/퀸/킹)",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[],
+
+      "deli":{
+        "today":false,
+        "home":true,
+        "free":false
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/165959279812235613.jpg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"한샘",
+
+      "title":"한샘몰pick 눕 데일리 구스 아쿠아텍스 패브릭 모듈 소파 4인용3colors",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[101],
+
+      "deli":{
+        "today":false,
+        "home":true,
+        "free":false
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/163339551420208507.jpg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"웰퍼니쳐",
+
+      "title":"[오늘의딜] [리뷰확인!] 허리엔 더매직 허리특화 포켓스프링 매트리스",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[101],
+
+      "deli":{
+        "today":false,
+        "home":true,
+        "free":true
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/167168822852557476.jpg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"헬로우슬립",
+
+      "title":"[10%쿠폰/7일특가] 부드러운 카스테라 항균 옥수수솜 여름/간절기/사계절 차렵이불세트",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[102],
+
+      "deli":{
+        "today":false,
+        "home":true,
+        "free":false
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/168048568273437280.jpg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"마틸라",
+
+      "title":"[10%쿠폰]디어썸머 시어서커 여름 차렵이불세트 SS/Q/K 18colors",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[102],
+
+      "deli":{
+        "today":false,
+        "home":true,
+        "free":false
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/168507672889954267.jpg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"LG전자",
+
+      "title":"LG 휘센 듀얼인버터 제습기 20L 블루 DQ202PBBC",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[103],
+
+      "deli":{
+        "today":true,
+        "home":true,
+        "free":false
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/168266558366770905.png?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"LG전자",
+
+      "title":"트롬 오브제컬렉션 워시타워 W20WANQ 세탁23kg 건조20kg",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[103],
+
+      "deli":{
+        "today":true,
+        "home":true,
+        "free":true
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/168117893709604626.jpg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"삼성전자",
+
+      "title":"비스포크 멀티형 무풍클래식 에어컨 2등급 AF17B7538TZRS 전국설치",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":false
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[103],
+
+      "deli":{
+        "today":false,
+        "home":true,
+        "free":true
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166200002169429992.jpg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"달팽이리빙",
+
+      "title":"퀴진드마망 순수 4인 수저세트(숟가락+젓가락)",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[104],
+
+      "deli":{
+        "today":true,
+        "home":true,
+        "free":true
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/167686051567898937.jpg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"노와",
+
+      "title":"[최종혜택가 59,254원]독일 주방명품 IH 쿡웨어 7P 세트 (멀티핸들 포함)",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[104],
+
+      "deli":{
+        "today":true,
+        "home":true,
+        "free":true
+      }
+    },
+    {
+      "thumb":"https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/165882093087605655.jpg?gif=1&w=1280&h=1280&c=c&webp=1",
+      "brand":"이브리영",
+
+      "title":"콸콸콸 자동물빠짐 올스텐 풀구성 2단 식기건조대+수저통+접시꽂이+도마걸이",
+
+      "price":{
+        "sale":55,
+        "curr":19900,
+        "special":true
+      },
+      "review":{
+        "rate":4.7,
+        "cnt":26293
+      },
+      "cate":[104],
+
+      "deli":{
+        "today":true,
+        "home":true,
+        "free":true
+      }
+    }
+  ]
+}

@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project2-오늘의집</title>
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+  <div class="wrapper">
+  
+    <!-- 헤더 영역 -->
+    <div class="header-wrapper">
+
+      <header class="header">
+        <div class="common-inner">
+          <div class="group-flex">
+            <h1 class="logo-pc">
+              <a href="">
+              <span class="blind">오늘의집 로고</span>
+              <svg class="css-bsbra5" width="74" height="30" viewBox="0 0 74 30" preserveAspectRatio="xMidYMid meet"><g fill="none" fill-rule="evenodd"><path fill="#000" d="M14.2 25.17H9.28V20.7a1.45 1.45 0 0 0-2.9 0v4.47H1.44a1.45 1.45 0 1 0 0 2.9H14.2a1.45 1.45 0 0 0 0-2.9M4.5 9.15c0-4.6 2.08-5.28 3.33-5.28 1.24 0 3.33.69 3.33 5.28v.36c0 4.6-2.09 5.28-3.33 5.28-1.25 0-3.34-.69-3.34-5.28v-.36zm3.33 8.54c3.84 0 6.23-3.13 6.23-8.18v-.36c0-5.05-2.39-8.18-6.23-8.18-3.85 0-6.24 3.13-6.24 8.18v.36c0 5.05 2.39 8.19 6.24 8.19zm25.54-7.34H17.81a1.45 1.45 0 0 0 0 2.9h15.56a1.45 1.45 0 1 0 0-2.9m-1.55 15.5c-7.08 1.83-9.45.79-10.14.25-.45-.35-.65-.8-.65-1.48v-.87h10.25c.8 0 1.46-.65 1.46-1.45v-5.08c0-.8-.66-1.45-1.46-1.45h-11.7a1.45 1.45 0 1 0 0 2.9h10.25v2.18H19.57c-.8 0-1.45.65-1.45 1.45v2.32a4.6 4.6 0 0 0 1.78 3.78c1.2.93 2.94 1.39 5.21 1.39 2.05 0 4.54-.38 7.44-1.13a1.45 1.45 0 1 0-.73-2.82M20.3 7.83h10.8a1.45 1.45 0 1 0 0-2.9h-9.35V1.45a1.45 1.45 0 1 0-2.9 0v4.93c0 .8.65 1.45 1.45 1.45"></path><rect width="3" height="15" x="70" fill="#000" rx="1.5"></rect><path fill="#000" d="M64.5 13.28a1.45 1.45 0 0 0 2.73-1c-.05-.13-1-2.68-3.38-4.5l3.7-4.1a1.45 1.45 0 0 0-1.09-2.42h-9.05a1.45 1.45 0 1 0 0 2.9h5.8l-6.88 7.64a1.45 1.45 0 1 0 2.16 1.95l3.41-3.8a8 8 0 0 1 2.6 3.33M69.56 26.52h-7.01a.82.82 0 0 1-.82-.82v-1.95h8.65v1.95c0 .45-.37.82-.82.82m2.27-9.37c-.8 0-1.45.65-1.45 1.45v2.25h-8.65V18.6a1.45 1.45 0 1 0-2.9 0v7.1a3.73 3.73 0 0 0 3.72 3.72h7.01a3.73 3.73 0 0 0 3.72-3.72v-7.1c0-.8-.65-1.45-1.45-1.45M42.46 3.87c2.22 0 2.33 4.24 2.33 5.08 0 .85-.11 5.09-2.33 5.09-2.21 0-2.32-4.24-2.32-5.08 0-.86.11-5.09 2.32-5.09m0 13.07c1.76 0 3.23-.93 4.14-2.62.71-1.34 1.1-3.2 1.1-5.36s-.39-4.02-1.1-5.37A4.6 4.6 0 0 0 42.46.97c-1.76 0-3.22.93-4.13 2.62-.72 1.35-1.1 3.2-1.1 5.37s.38 4.01 1.1 5.36a4.59 4.59 0 0 0 4.13 2.62"></path><path fill="#000" d="M51.4.49c-.8 0-1.45.65-1.45 1.45v17.78c-1.93.6-5.75 1.13-10.38 1.13h-2.2a1.45 1.45 0 0 0 0 2.9h2.2c2.64 0 7.21-.23 10.38-1.02v4.84a1.45 1.45 0 0 0 2.9 0V1.94c0-.8-.65-1.45-1.45-1.45"></path></g></svg>
+              </a>
+            </h1>
+
+            <!-- 모바일 햄버거 버튼 -->
+            <a href="" class="hamburge-btn">
+              <span></span>
+            </a>
+
+            <div class="menu-area">
+              <a href="" class="menu on" data-menu="#menu1">커뮤니티</a>
+              <a href="" class="menu" data-menu="#menu2">쇼핑</a>
+              <a href="" class="menu" data-menu="#menu3">이사/시공/수리</a>
+            </div>
+
+            <div class="search-area">
+              <form action="" method="get">
+                <!-- 폼에대한 영역 -->
+                <fieldset> 
+                  <!-- 폼에대한 제목 -->
+                  <legend class="blind">검색</legend>
+                  <div class="scarch-window">
+                    <span class="search"></span>
+                    <input type="text" class="input-text" placeholder="통합검색">
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+
+            <div class="service-area">
+              <a href=""><span class="search"></span></a>
+              <a href=""><span class="blind">장바구니 링크버튼</span><span class="cart"></span></a>
+              <a href="" class="text">로그인</a>
+              <i class="bar"></i>
+              <a href="" class="text">회원가입</a>
+              <i class="bar last"></i>
+              <a href="" class="text last">고객센터</a>
+              <button class="btn"><span>글쓰기</span><span class="write"></span></button>
+
+              <div class="writing-box">
+                <div class="writing-wrapper">
+                  <div class="group-flex">
+                    <div class="img-box">
+                      <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36"><rect x="6.54" y="3.59" width="27" height="29" rx="2.5" transform="rotate(4 6.54 3.6)" fill="#DBDBDB" stroke="#000" stroke-linejoin="round"></rect><rect x="2.5" y="1.5" width="27" height="29" rx="2.5" fill="#fff" stroke="#000" stroke-linejoin="round"></rect><rect x="5" y="4" width="22" height="22" rx="1" fill="#FFE2C7"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M14 7l5 .45v3.5l-5-.45V7zm0 4.5V15l5 .45v-3.5l-5-.45zm6 .55v3.5l5 .45v-3.5l-5-.45zm5-.55V8l-5-.45v3.5l5 .45z" fill="#fff"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M5 19l22 2v7L5 26v-7z" fill="#E6A87C"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3.45h5v16l-5 4v-20z" fill="#F1C8A3"></path></svg>
+                    </div>
+                    <div class="text-box">
+                      <p class="title">사진/동영상 올리기</p>
+                      <p class="desc">우리 집의 공간과 나의 일상을 기록해 보세요.</p>
+                    </div>
+                  </div>
+                  <div class="group-flex">
+                    <div class="img-box">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><g fill="none" fill-rule="evenodd"><path d="M0 0h36v36H0z"></path><path fill="#FFF6E6" d="M27.2 29.31H4.8V14.38h22.4"></path><path fill="#EDE2CD" d="M27.2 17.18H4.8v-2.8h22.4"></path><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M4.8 29.31V14.38h22.4v14.93H4.8z"></path><path fill="#FFF" d="M16 19.05a4.67 4.67 0 014.67 4.66v5.6h-9.34v-5.6A4.67 4.67 0 0116 19.05z"></path><path fill="#fff" d="M16 19.05a4.67 4.67 0 014.67 4.66v5.6h-9.34v-5.6A4.67 4.67 0 0116 19.05z"></path><path stroke="#000" d="M16 19.05a4.67 4.67 0 014.67 4.66v5.6h-9.34v-5.6A4.67 4.67 0 0116 19.05z"></path><path fill="#FBDEC1" d="M2.94 14.38a.9.9 0 01-.81-1.3l3.25-6.6a.9.9 0 01.8-.5h19.64c.34 0 .65.2.8.5l3.25 6.6a.9.9 0 01-.8 1.3H2.93z"></path><path fill="#E9C39D" d="M2.94 14.38a.9.9 0 01-.81-1.3l.74-1.5h26.26l.74 1.5a.9.9 0 01-.8 1.3H2.92z"></path><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M2.94 14.38a.9.9 0 01-.81-1.3l3.25-6.6a.9.9 0 01.8-.5h19.64c.34 0 .65.2.8.5h0l3.25 6.6a.9.9 0 01-.8 1.3h0H2.93z"></path><g transform="translate(26 9)"><path fill="#fff" d="M0 5h8.07v12H0z"></path><path fill="#ffdb92" d="M0 0h8v4H0z"></path><path d="M8.5 17.43H-.52 8.5L4 23.8l-4.52-6.37H8.5" fill="#fff6e6"></path><path d="M8.5 1v0A1.49 1.49 0 007-.5H1v0A1.5 1.5 0 00-.5 1l-.02 16.43L4 23.8l4.5-6.37z" stroke="#000"></path><path fill="#000" d="M4 23l2-2H2z"></path><rect width="6" height="2" x="-14" y="3" stroke="#000" rx="1" transform="rotate(-90)" ry="1"></rect><rect width="5" height="1" x="-13.5" y="3.5" fill="#ffdb92" rx=".5" transform="rotate(-90)" ry=".5"></rect><path fill="#000" d="M0 4h8v1H0z" opacity=".9"></path><path d="M-.52 17.43H8.5" stroke="#000"></path></g><path fill="#000" d="M30 32l2-2h-4z"></path></g></svg>
+                    </div>
+                    <div class="text-box">
+                      <p class="title">집들이 글쓰기</p>
+                      <p class="desc">집에 관한 이야기를 글로 작성해 보세요.</p>
+                    </div>
+                  </div>
+                  <div class="group-flex">
+                    <div class="img-box">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><g fill="none" fill-rule="evenodd"><path d="M0 0h36v36H0z"></path><path fill="#EDEDED" d="M17 10h2v22h-2z"></path><path fill="#FFF" d="M3 10.2c3.65-1.07 6.98-1.07 10 0h10.16c2.98-1 6.26-1 9.84 0v21c-5.79-1.62-10.79-1.29-15 1-4.21-2.37-9.21-2.7-15-1z"></path><path fill="#EDEDED" d="M16.5 15h3v16c-.66.8-1.16 1.2-1.5 1.2-.34 0-.84-.4-1.5-1.2V15z"></path><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M3 10.2c3.65-1.07 6.98-1.07 10 0h10.16c2.98-1 6.26-1 9.84 0h0v1.97h0V31.2c-5.79-1.62-10.79-1.29-15 1-4.21-2.37-9.21-2.7-15-1z"></path><g transform="translate(11 3)"><path fill="#FFDB92" stroke="#000" d="M7 0a7 7 0 013 13.33V17H4v-3.67A7 7 0 017 0z"></path><path stroke="#000" stroke-linecap="square" d="M7 15.68V8.5"></path><circle cx="7" cy="7.5" r="1.5" fill="#000"></circle><path fill="#FFF" stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M3 16h8v7H3z"></path><path stroke="#000" stroke-linecap="square" d="M3 18.5h8m-8 2h8"></path></g></g></svg>
+                    </div>
+                    <div class="text-box">
+                      <p class="title">노하우 글쓰기</p>
+                      <p class="desc">다양한 인테리어 노하우를 공유해 주세요.</p>
+                    </div>
+                  </div>
+                  <div class="group-flex">
+                    <div class="img-box">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><g fill="none" fill-rule="evenodd"><path d="M0 0h36v36H0z"></path><g stroke-linejoin="round" transform="translate(2 3)"><rect width="4" height="8" x="3" y="21" fill="#FFB787" stroke="#000" rx="2"></rect><rect fill="#FFE2C7" width="24" height="25" rx="3"></rect><rect fill="#ffe2c7" width="24" height="25" rx="3"></rect><rect stroke="#000" width="24" height="25" rx="3" stroke-width="1.2"></rect><rect width="6" height="3" x="9" y="5" fill="#DB9F77" stroke="#FFF" rx="1.5"></rect><rect width="6" height="3" x="9" y="17" fill="#DB9F77" stroke="#FFF" rx="1.5"></rect><path fill="#FFDB92" stroke="#EDC29B" d="M1.5 12.5h21"></path></g><path fill="#35C5F0" d="M26.25 31.53l-3.7 1.32a1 1 0 01-1.34-.97l.1-3.93a.99.99 0 00-.2-.64l-2.4-3.11a1 1 0 01.51-1.57l3.77-1.12a1 1 0 00.55-.39l2.22-3.24a1 1 0 011.65 0l2.22 3.24a1 1 0 00.55.4l3.77 1.1a1 1 0 01.5 1.58l-2.4 3.11a1 1 0 00-.2.64l.11 3.93a1 1 0 01-1.33.97l-3.71-1.32a1 1 0 00-.67 0z"></path><path fill="#9AE2F7" d="M27.15 17.61a1 1 0 01.26.26l2.22 3.25c.06.09.13.16.22.23l-8.59 8.58.06-1.98a.99.99 0 00-.21-.64l-2.4-3.11a1 1 0 01.51-1.57l3.77-1.12a1 1 0 00.55-.39l2.22-3.24a1 1 0 011.39-.26z"></path><path stroke="#000" d="M26.29 30.85l-3.31 1.17a.9.9 0 01-1.2-.86l.1-3.51c0-.2-.06-.4-.18-.57l-2.14-2.78a.9.9 0 01.45-1.4l3.37-.99a.9.9 0 00.48-.35l1.99-2.9a.9.9 0 011.47 0l1.99 2.9c.11.17.28.3.48.35l3.37 1a.9.9 0 01.45 1.4l-2.14 2.77a.89.89 0 00-.18.57l.1 3.5a.9.9 0 01-1.2.87l-3.3-1.17a.9.9 0 00-.6 0z" stroke-width="1.2"></path></g></svg>
+                    </div>
+                    <div class="text-box">
+                      <p class="title">상품 리뷰 쓰기</p>
+                      <p class="desc">상품 리뷰를 작성하고 포인트도 받아 보세요.</p>
+                    </div>
+                  </div>
+                  <div class="group-flex">
+                    <div class="img-box">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><g fill="none" fill-rule="evenodd"><path d="M0 0h36v36H0z"></path><path fill="#FFDB92" d="M13.75 3.52h1.9a8.1 8.1 0 018.1 8.1v1.9H5.65v-1.9a8.1 8.1 0 018.1-8.1z"></path><path fill="#FFDB92" d="M12 3h5v2h-5z"></path><path fill="#FFF" d="M12.2 23.92h5.4a7.2 7.2 0 017.2 7.2v2.8H5v-2.8a7.2 7.2 0 017.2-7.2z"></path><path fill="#EDEDED" fill-opacity=".14" d="M17.6 23.92c1.2 0 2.33.3 3.32.8a10.84 10.84 0 01-6.19 1.78c-2.28 0-4.38-.57-6.04-1.67a7.15 7.15 0 013.51-.91h5.4z"></path><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M5 33.59V30.9a6.59 6.59 0 015.47-6.37"></path><path d="M10.64 24.6v3.19" fill-rule="nonzero" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></path><path fill="#B1C0CB" fill-rule="nonzero" stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M8.9 33.92l.98-6H21.9l.98 6"></path><path fill="#FFF6E6" fill-rule="nonzero" d="M22.04 14.29c.31.9.48 2.3.48 3.31 0 4.65-3.49 7.2-7.79 7.2s-7.78-2.55-7.78-7.2c0-1.02.17-2.4.48-3.31"></path><path fill="#EDE2CD" fill-rule="nonzero" d="M22.04 14.29c.16.48.29 1.09.37 1.71H7.06c.08-.62.2-1.23.37-1.71h14.6z"></path><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M22.04 14.29c.31.9.48 2.3.48 3.31 0 4.65-3.49 7.2-7.79 7.2s-7.78-2.55-7.78-7.2c0-1.02.17-2.4.48-3.31"></path><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M16.29 20.9c-.23.46-.84.79-1.56.79-.72 0-1.33-.33-1.56-.78"></path><path d="M12 17.55V17m5.46.55V17" fill-rule="nonzero" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"></path><path fill="#EFC570" d="M9.5 5l2.88 4.72v-5.9zM19.94 5l-2.89 4.72v-5.9z"></path><g stroke="#000" stroke-linecap="round"><path stroke-linejoin="round" d="M5.75 11.76c0-4.08 2.9-7.45 6.63-7.94v-.3c0-.55.43-1 .95-1h2.84c.53 0 .95.45.95 1v.3c3.74.5 6.63 3.86 6.63 7.94"></path><path d="M12.38 5.52v-2c0-.55.43-1 .95-1h2.84c.53 0 .95.45.95 1v2"></path><path fill="#F5F5F5" fill-rule="nonzero" d="M4.2 14.02h20.7"></path></g><g><path fill="#35C5F0" d="M26.25 33.1l-3.71 1.31a1 1 0 01-1.34-.97l.11-3.93a.99.99 0 00-.2-.64l-2.4-3.11a1 1 0 01.5-1.57L23 23.07a1 1 0 00.54-.39l2.23-3.24a1 1 0 011.65 0l2.22 3.24a1 1 0 00.54.4l3.78 1.1a1 1 0 01.5 1.58l-2.4 3.11a1 1 0 00-.2.64l.1 3.93a1 1 0 01-1.33.97l-3.7-1.32a1 1 0 00-.67 0z"></path><path fill="#9AE2F7" d="M27.15 19.18a1 1 0 01.26.26l2.22 3.24c.06.09.13.16.21.23l-8.58 8.58.05-1.98a.99.99 0 00-.2-.64l-2.4-3.11a1 1 0 01.5-1.57L23 23.07a1 1 0 00.54-.39l2.23-3.24a1 1 0 011.39-.26z"></path><path stroke="#000" d="M26.25 33.1l-3.71 1.31a1 1 0 01-1.34-.97l.11-3.93a.99.99 0 00-.2-.64l-2.4-3.11a1 1 0 01.5-1.57L23 23.07a1 1 0 00.54-.39l2.23-3.24a1 1 0 011.65 0l2.22 3.24a1 1 0 00.54.4l3.78 1.1a1 1 0 01.5 1.58l-2.4 3.11a1 1 0 00-.2.64l.1 3.93a1 1 0 01-1.33.97l-3.7-1.32a1 1 0 00-.67 0z"></path></g></g></svg>
+                    </div>
+                    <div class="text-box">
+                      <p class="title">시공 전문가 리뷰쓰기</p>
+                      <p class="desc">시공 전문가 리뷰를 작성하고 포인트도 받아 보세요.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+        </div>
+
+        <div class="mobile-menu-bg"></div>
+       <!-- 모바일 사이드 메뉴 -->
+      <nav class="mobile-menu">
+        <div class="mobile-inner">
+          <h1 class="logo-m">
+            <a href="">
+            <span class="blind">오늘의집 로고</span>
+            <svg class="css-bsbra5" width="74" height="30" viewBox="0 0 74 30" preserveAspectRatio="xMidYMid meet"><g fill="none" fill-rule="evenodd"><path fill="#000" d="M14.2 25.17H9.28V20.7a1.45 1.45 0 0 0-2.9 0v4.47H1.44a1.45 1.45 0 1 0 0 2.9H14.2a1.45 1.45 0 0 0 0-2.9M4.5 9.15c0-4.6 2.08-5.28 3.33-5.28 1.24 0 3.33.69 3.33 5.28v.36c0 4.6-2.09 5.28-3.33 5.28-1.25 0-3.34-.69-3.34-5.28v-.36zm3.33 8.54c3.84 0 6.23-3.13 6.23-8.18v-.36c0-5.05-2.39-8.18-6.23-8.18-3.85 0-6.24 3.13-6.24 8.18v.36c0 5.05 2.39 8.19 6.24 8.19zm25.54-7.34H17.81a1.45 1.45 0 0 0 0 2.9h15.56a1.45 1.45 0 1 0 0-2.9m-1.55 15.5c-7.08 1.83-9.45.79-10.14.25-.45-.35-.65-.8-.65-1.48v-.87h10.25c.8 0 1.46-.65 1.46-1.45v-5.08c0-.8-.66-1.45-1.46-1.45h-11.7a1.45 1.45 0 1 0 0 2.9h10.25v2.18H19.57c-.8 0-1.45.65-1.45 1.45v2.32a4.6 4.6 0 0 0 1.78 3.78c1.2.93 2.94 1.39 5.21 1.39 2.05 0 4.54-.38 7.44-1.13a1.45 1.45 0 1 0-.73-2.82M20.3 7.83h10.8a1.45 1.45 0 1 0 0-2.9h-9.35V1.45a1.45 1.45 0 1 0-2.9 0v4.93c0 .8.65 1.45 1.45 1.45"></path><rect width="3" height="15" x="70" fill="#000" rx="1.5"></rect><path fill="#000" d="M64.5 13.28a1.45 1.45 0 0 0 2.73-1c-.05-.13-1-2.68-3.38-4.5l3.7-4.1a1.45 1.45 0 0 0-1.09-2.42h-9.05a1.45 1.45 0 1 0 0 2.9h5.8l-6.88 7.64a1.45 1.45 0 1 0 2.16 1.95l3.41-3.8a8 8 0 0 1 2.6 3.33M69.56 26.52h-7.01a.82.82 0 0 1-.82-.82v-1.95h8.65v1.95c0 .45-.37.82-.82.82m2.27-9.37c-.8 0-1.45.65-1.45 1.45v2.25h-8.65V18.6a1.45 1.45 0 1 0-2.9 0v7.1a3.73 3.73 0 0 0 3.72 3.72h7.01a3.73 3.73 0 0 0 3.72-3.72v-7.1c0-.8-.65-1.45-1.45-1.45M42.46 3.87c2.22 0 2.33 4.24 2.33 5.08 0 .85-.11 5.09-2.33 5.09-2.21 0-2.32-4.24-2.32-5.08 0-.86.11-5.09 2.32-5.09m0 13.07c1.76 0 3.23-.93 4.14-2.62.71-1.34 1.1-3.2 1.1-5.36s-.39-4.02-1.1-5.37A4.6 4.6 0 0 0 42.46.97c-1.76 0-3.22.93-4.13 2.62-.72 1.35-1.1 3.2-1.1 5.37s.38 4.01 1.1 5.36a4.59 4.59 0 0 0 4.13 2.62"></path><path fill="#000" d="M51.4.49c-.8 0-1.45.65-1.45 1.45v17.78c-1.93.6-5.75 1.13-10.38 1.13h-2.2a1.45 1.45 0 0 0 0 2.9h2.2c2.64 0 7.21-.23 10.38-1.02v4.84a1.45 1.45 0 0 0 2.9 0V1.94c0-.8-.65-1.45-1.45-1.45"></path></g></svg>
+            </a>
+          </h1>
+          <div class="group-btn">
+            <a href="" class="btn login">로그인</a>
+            <a href="" class="btn join">회원가입</a>
+          </div>
+          <div class="group-gnb">
+            <ul class="gnb-list">
+              <li class="gnb-item">
+                <a href="" class="item">
+                  <span class="icon home-outline"></span>
+                  커뮤니티
+                  <span class="chevron icon chevron-thick-down"></span>
+                </a>
+              </li>
+              <li class="gnb-item">
+                <a href="" class="item">
+                  <span class="icon store"></span>
+                  쇼핑
+                  <span class="chevron icon chevron-thick-down"></span>
+                </a>
+              </li>
+              <li class="gnb-item">
+                <a href="" class="item">
+                  <span class="icon truck"></span>
+                  이사/시공/생활
+                  <span class="chevron icon chevron-thick-down"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="group-menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="" class="item">마이페이지</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="item">나의쇼핑</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="item">스크랩북</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="item">알림</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="item">이벤트</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="item">사진 올리기</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="item">집들이 글쓰기</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </header>
+
+      <!-- 서브메뉴 영역 -->
+      <nav class="sub">
+        <div class="common-inner">
+              <div class="group-flex">
+                <div class="group-nav">
+                  <div class="menu on" id="menu1">
+                    <ul class="nav-list">
+                      <li class="nav-item"><a href="" class="nav on">홈</a></li>
+                      <li class="nav-item"><a href="" class="nav">팔로잉</a></li>
+                      <li class="nav-item"><a href="" class="nav">사진</a></li>
+                      <li class="nav-item"><a href="" class="nav">집들이</a></li>
+                      <li class="nav-item"><a href="" class="nav">노하우</a></li>
+                      <li class="nav-item"><a href="" class="nav">전문가집들이</a></li>
+                      <li class="nav-item"><a href="" class="nav">셀프가이드</a></li>
+                      <li class="nav-item"><a href="" class="nav">3D인테리어</a></li>
+                      <li class="nav-item"><a href="" class="nav">이벤트</a></li>
+                    </ul>
+                  </div>
+                  <div class="menu" id="menu2">
+                    <ul class="nav-list">
+                      <li class="nav-item"><a href="" class="nav on">쇼핑홈</a></li>
+                      <li class="nav-item"><a href="" class="nav">카테고리</a></li>
+                      <li class="nav-item"><a href="" class="nav">베스트</a></li>
+                      <li class="nav-item"><a href="" class="nav">오늘의딜</a></li>
+                      <li class="nav-item"><a href="" class="nav">리퍼마켓</a></li>
+                      <li class="nav-item"><a href="" class="nav">오!굿즈</a></li>
+                      <li class="nav-item"><a href="" class="nav">빠른배송</a></li>
+                      <li class="nav-item"><a href="" class="nav">오!쇼룸</a></li>
+                      <li class="nav-item"><a href="" class="nav">프리미엄</a></li>
+                      <li class="nav-item"><a href="" class="nav">기획전</a></li>
+                    </ul>
+                  </div>
+                  <div class="menu" id="menu3">
+                    <ul class="nav-list">
+                      <li class="nav-item"><a href="" class="nav on">홈</a></li>
+                      <li class="nav-item"><a href="" class="nav">주거공간시공</a></li>
+                      <li class="nav-item"><a href="" class="nav">상업공간시공</a></li>
+                      <li class="nav-item"><a href="" class="nav">아파트시공사례</a></li>
+                      <li class="nav-item"><a href="" class="nav">설치수리</a></li>
+                      <li class="nav-item"><a href="" class="nav">이사</a></li>
+                      <li class="nav-item"><a href="" class="nav">집보기체크리스트</a></li>        
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- 인기검색어 -->
+                <div class="group-top10">
+                  <div class="top10-area">
+                      <div class="swiper top-slide">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="text-box">
+                              <span class="rank">1</span>
+                              <span class="name">허닭</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="text-box">
+                              <span class="rank">2</span>
+                              <span class="name">회전트레이</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="text-box">
+                              <span class="rank">3</span>
+                              <span class="name">마틸다</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="text-box">
+                              <span class="rank">4</span>
+                              <span class="name">스탠바이미</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="text-box">
+                              <span class="rank">5</span>
+                              <span class="name">크로우캐년</span>
+                            </div>
+                          </div>    
+                          <div class="swiper-slide">
+                            <div class="text-box">
+                              <span class="rank">6</span>
+                              <span class="name">엔틱</span>
+                            </div>
+                          </div> 
+                          <div class="swiper-slide">
+                            <div class="text-box">
+                              <span class="rank">7</span>
+                              <span class="name">반타원 테이블</span>
+                            </div>
+                          </div> 
+                          <div class="swiper-slide">
+                            <div class="text-box">
+                              <span class="rank">8</span>
+                              <span class="name">체커보드</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="text-box">
+                              <span class="rank">9</span>
+                              <span class="name">코스타노바</span>
+                            </div>
+                          </div> 
+                          <div class="swiper-slide">
+                            <div class="text-box">
+                              <span class="rank">10</span>
+                              <span class="name">벽장식</span>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>
+                      <button class="btn icon chevron-down" aria-label="브이형 아이콘"></button>
+                    </div>
+
+                      <div class="top10-box">
+                        <div class="top-wrap">
+                          <h3 class="title">인기검색어</h3>
+                          <button class="btnnnnn icon chevron-down" aria-label="브이형 아이콘"></button>
+                        </div>
+
+                        <ul class="top-list">
+                          <li class="top-item">
+                            <a href="" class="item">
+                              <span class="rank">1</span>
+                              <span class="name">허닭</span>
+                            </a>
+                          </li>
+                          <li class="top-item">
+                            <a href="" class="item">
+                              <span class="rank">2</span>
+                              <span class="name">회전트레이</span>
+                            </a>
+                          </li>
+                          <li class="top-item">
+                            <a href="" class="item">
+                              <span class="rank">3</span>
+                              <span class="name">마틸다</span>
+                            </a>
+                          </li>
+                          <li class="top-item">
+                            <a href="" class="item">
+                              <span class="rank">4</span>
+                              <span class="name">스탠바이미</span>
+                            </a>
+                          </li>
+                          <li class="top-item">
+                            <a href="" class="item">
+                              <span class="rank">5</span>
+                              <span class="name">크로우캐년</span>
+                            </a>
+                          </li>
+                          <li class="top-item">
+                            <a href="" class="item">
+                              <span class="rank">6</span>
+                              <span class="name">엔틱</span>
+                            </a>
+                          </li>
+                          <li class="top-item">
+                            <a href="" class="item">
+                              <span class="rank">7</span>
+                              <span class="name">반타원 테이블</span>
+                            </a>
+                          </li>
+                          <li class="top-item">
+                            <a href="" class="item">
+                              <span class="rank">8</span>
+                              <span class="name">체커보드</span>
+                            </a>
+                          </li>
+                          <li class="top-item">
+                            <a href="" class="item">
+                              <span class="rank">9</span>
+                              <span class="name">코스타노바</span>
+                            </a>
+                          </li>
+                          <li class="top-item">
+                            <a href="" class="item">
+                              <span class="rank">10</span>
+                              <span class="name">벽장식</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+              </div>
+          </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- 메인영역 -->
+  <main class="container">
+    <!-- sc-visual -->
+    <section class="sc-visual">
+      <div class="inner">
+        <div class="box1">
+          <div class="cont">
+            <a href="" class="item">
+              <div class="img-box">
+                <img src="./assets/images/sc-visual01.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p class="title">청량함 가득🌊 여름맞이 블루 아이템</p>
+                <p class="shop">오!브젝트</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="box2">
+          <div class="cont">
+            <div class="slide-cont">
+              <div class="swiper main-slide">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="img-box">
+                      <a href="">
+                        <picture>
+                          <source srcset="./assets/images/sc-visual-slide01.webp" media="all and (min-width: 768px)">
+                          <img src="./assets/images/main-visual-m-01.avif" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img-box">
+                      <a href="">
+                        <picture>
+                          <source srcset="./assets/images/sc-visual-slide02.avif" media="all and (min-width: 768px)">
+                          <img src="./assets/images/main-visual-m-02.avif" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img-box">
+                      <a href="">
+                        <picture>
+                          <source srcset="./assets/images/sc-visual-slide03.avif" media="all and (min-width: 768px)">
+                          <img src="./assets/images/main-visual-m-03.avif" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img-box">
+                      <a href="">
+                        <picture>
+                          <source srcset="./assets/images/sc-visual-slide04.avif" media="all and (min-width: 768px)">
+                          <img src="./assets/images/main-visual-m-04.avif" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- control -->
+                <button class="btn prev icon icon-prev" aria-label="이전슬라이드"></button>
+                <button class="btn next icon icon-next" aria-label="다음슬라이드"></button>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <!-- sc-shop -->
+    <section class="sc-shop">
+      <ul class="shop-list">
+        <li class="shop-item">
+          <a href="" class="item">
+            <img src="./assets/images/icon-1.avif" alt="">
+            <p>쇼핑하기</p>
+          </a>
+        </li>
+        <li class="shop-item">
+          <a href="" class="item">
+            <img src="./assets/images/icon-2.png" alt="">
+            <p>오!세일</p>
+          </a>
+        </li>
+        <li class="shop-item">
+          <a href="" class="item">
+            <img src="./assets/images/icon-3.png" alt="">
+            <p>오늘의딜</p>
+          </a>
+        </li>
+        <li class="shop-item">
+          <a href="" class="item">
+            <img src="./assets/images/icon-4.avif" alt="">
+            <p>취향의발견</p>
+          </a>
+        </li>
+        <li class="shop-item">
+          <a href="" class="item">
+            <img src="./assets/images/icon-5.png" alt="">
+            <p>장보기</p>
+          </a>
+        </li>
+        <li class="shop-item">
+          <a href="" class="item">
+            <img src="./assets/images/icon-6.png" alt="">
+            <p>집들이</p>
+          </a>
+        </li>
+        <li class="shop-item">
+          <a href="" class="item">
+            <img src="./assets/images/icon-7.png" alt="">
+            <p>꿀잼시리즈</p>
+          </a>
+        </li>
+        <li class="shop-item">
+          <a href="" class="item">
+            <img src="./assets/images/icon-8.png" alt="">
+            <p>빠른배송</p>
+          </a>
+        </li>
+        <li class="shop-item">
+          <a href="" class="item">
+            <img src="./assets/images/icon-9.png" alt="">
+            <p>쉬운이사</p>
+          </a>
+        </li>
+        <li class="shop-item">
+          <a href="" class="item">
+            <img src="./assets/images/icon-10.png" alt="">
+            <p>리모델링</p>
+          </a>
+        </li>  
+      </ul>
+    </section>
+
+    <!-- sc-deco -->
+    <section class="sc-deco common-sc">
+      <div class="group-title">
+        <a href="">
+          <p class="title">요즘은 집을 어떻게 꾸밀까? 🔍</p>
+        </a>
+        <a href="" class="link">더보기</a>
+        <a href="" class="icon more-icon"></a>
+      </div>
+
+      <div class="group-list">
+        <ul class="list-item">
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-deco01.jpeg" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>가족들의 추억이 쌓이는 </span>놀이터이자 쉼터같은 우리집</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-deco02.jpeg" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>무채색으로 가득 채운 </span>바다가 보이는 34평 신축 아파트</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-deco03.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>사춘기 아이들이 더 좋아해요! </span>따뜻한 감성의 우리집</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <span class="new-icon">NEW</span>
+              <div class="img-box">
+                <img src="./assets/images/sc-deco04.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>취향 가득 담아낸 </span>편안한 무드의 홈 스윗홈</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- sc-weekly-best -->
+    <section class="sc-weekly-best common-sc">
+      <div class="group-title">
+        <p class="title">🏅 이주의 인기! Weekly Best 🏅</p>
+        <a href="" class="link">더보기</a>
+        <a href="" class="icon more-icon"></a>
+      </div>
+
+      <div class="group-list">
+        <ul class="list-item">
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-weekly-best01.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>모기 잘 물리는 사람 주목 </span>모기 결계쳐주는 꿀템6</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-weekly-best02.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>10분컷! </span>간단하지만 있어 보이는 홈브런치 메뉴들</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-weekly-best03.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>여름 옷장도 깔끔하게 </span>내돈내산 여름옷 수납템 6선</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-weekly-best04.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>인덕션 찌든때,탄 자국 </span>집에 있는 '이것'으로 해결</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- sc-only -->
+    <section class="sc-only common-sc">
+      <div class="group-title">
+        <p class="title">오늘의집 only! 수납 끝판왕 展 🧱</p>
+        <a href="" class="link">더보기</a>
+        <a href="" class="icon more-icon"></a>
+      </div>
+
+      <div class="group-list">
+        <ul class="list-item">
+          <li class="item">
+            <a href="">
+              <span class="new-icon">NEW</span>
+              <div class="img-box">
+                <img src="./assets/images/sc-only01.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>정리도 유지도 쉬운 </span>365일 칼각 주방수납 레이아웃</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-only02.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>단돈 70만원으로 완성 </span>미니멀 드레스룸 수납의 정석</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-only03.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>주방부터 세탁실까지! </span>맥시멀리스트를 위한 수납 비법</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-only04.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>수납함 통일이 핵심 </span>미친 쾌감의 칼각 주방 수납 팁</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- sc-styling -->
+    <section class="sc-styling common-sc">
+      <div class="group-title">
+        <p class="title">여름 스타일링은 청량하게 🌊 </p>
+        <a href="" class="link">더보기</a>
+        <a href="" class="icon more-icon"></a>
+      </div>
+
+      <div class="group-list">
+        <ul class="list-item">
+          <li class="item">
+            <a href="">
+              <span class="new-icon">NEW</span>
+              <div class="img-box">
+                <img src="./assets/images/sc-styling01.jpeg" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>정리도 유지도 쉬운 </span>365일 칼각 주방수납 레이아웃</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <span class="new-icon">NEW</span>
+              <div class="img-box">
+                <img src="./assets/images/sc-styling02.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>단돈 70만원으로 완성 </span>미니멀 드레스룸 수납의 정석</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <span class="new-icon">NEW</span>
+              <div class="img-box">
+                <img src="./assets/images/sc-styling03.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>주방부터 세탁실까지! </span>맥시멀리스트를 위한 수납 비법</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-styling04.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p><span>수납함 통일이 핵심 </span>미친 쾌감의 칼각 주방 수납 팁</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- sc-category -->
+    <section class="sc-category">
+      <div class="group-title">
+        <p class="title">카테고리별 상품 찾기</p>
+      </div>
+
+      <div class="slide-cont">
+        <div class="swiper category-slide">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor1.png" alt="">
+              </div>
+              <div class="text-box">
+                <p>가구</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor2.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p>패브릭</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor3.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p>가전.디지털</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor4.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p>주방용품</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor5.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p>식품</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor6.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p>데코.식물</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor7.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p>조명</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor8.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p>수납.정리</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor9.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p>생활용품</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor10.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p>생필품</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor11.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p>유아.아동</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor12.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p>반려동물</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor13.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p>캠핑레저</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor14.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p>공구.DIY</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor15.webp" alt="">
+              </div>
+              <div class="text-box">
+                <p>인테리어시공</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/categor16.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p>장보기</p>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- control -->
+          <button class="btn prev icon icon-prev" aria-label="이전슬라이드"></button>
+          <button class="btn next icon icon-next" aria-label="다음슬라이드"></button>
+      </div>
+    </section>
+
+    <!-- sc-sale -->
+    <section class="sc-sale">
+      <div class="group-title">
+        <p class="title">오늘의 딜</p>
+        <a href="" class="link">더보기</a>
+        <a href="" class="icon more-icon"></a>
+      </div>
+
+        <div class="slide-cont">
+          <div class="swiper sc-sale-slide">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="img-box">
+                  <img src="./assets/images/sc-today-sale01.webp" alt="">
+                </div>
+                <div class="content-box">
+                  <p class="brand">아엠홈</p>
+                  <p class="desc">[5%쿠폰] 비침없는 도톰 레이스/쉬폰커튼(나비주름/핀형/봉집)</p>
+                  <p class="price-box">
+                    <span class="rate">55%</span>
+                    <span class="price">19,900</span>
+                  </p>
+                  <p class="stats-box">
+                    <span class="avg">4.7</span>
+                    <span>리뷰26,283</span>
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-box">
+                  <img src="./assets/images/sc-today-sale02.webp" alt="">
+                </div>
+                <div class="content-box">
+                  <p class="brand">레시앙뜨</p>
+                  <p class="desc">[여름단독특가] 베이직 순면 시어서커 프릴 여름 차렵이불세트 5컬러 SS/Q/K</p>
+                  <p class="price-box">
+                    <span class="rate">67%</span>
+                    <span class="price">64,900</span>
+                  </p>
+                  <p class="stats-box">
+                    <span class="avg">4.8</span>
+                    <span>리뷰10,029</span>
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-box">
+                  <img src="./assets/images/sc-today-sale03.avif" alt="">
+                </div>
+                <div class="content-box">
+                  <p class="brand">디귿</p>
+                  <p class="desc">[쿠폰가 82,770원] 화이트 철제 슬림수납장</p>
+                  <p class="price-box">
+                    <span class="rate">7%</span>
+                    <span class="price">119,900</span>
+                  </p>
+                  <p class="stats-box">
+                    <span class="avg">4.6</span>
+                    <span>리뷰132</span>
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-box">
+                  <img src="./assets/images/sc-today-sale04.avif" alt="">
+                </div>
+                <div class="content-box">
+                  <p class="brand">가담다</p>
+                  <p class="desc">원터치 플라스틱 휴지통 6colors</p>
+                  <p class="price-box">
+                    <span class="rate">44%</span>
+                    <span class="price">17,900</span>
+                  </p>
+                  <p class="stats-box">
+                    <span class="avg">4.7</span>
+                    <span>리뷰5,730</span>
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-box">
+                  <img src="./assets/images/sc-today-sale05.webp" alt="">
+                </div>
+                <div class="content-box">
+                  <p class="brand">메리메이드 </p>
+                  <p class="desc">에어컨청소 외 공간별 청소 대행 서비스 특가</p>
+                  <p class="price-box">
+                    <span class="rate">36%</span>
+                    <span class="price">53,900외</span>
+                  </p>
+                  <p class="stats-box">
+                    <span class="avg">4.6</span>
+                    <span>리뷰2,126</span>
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-box">
+                  <img src="./assets/images/sc-today-sale06.avif" alt="">
+                </div>
+                <div class="content-box">
+                  <p class="brand">홈블리</p>
+                  <p class="desc">대용량 제습제 초특가! 와이드형 24개입 외 모음</p>
+                  <p class="price-box">
+                    <span class="rate">29%</span>
+                    <span class="price">17,500외</span>
+                  </p>
+                  <p class="stats-box">
+                    <span class="avg">4.8</span>
+                    <span>리뷰6,635</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- control -->
+            <button class="btn prev icon icon-prev" aria-label="이전슬라이드"></button>
+            <button class="btn next icon icon-next" aria-label="다음슬라이드"></button>
+        </div>
+    </section>
+    <!-- sc-recomm -->
+    <section class="sc-recomm">
+      <div class="group-title">
+        <div class="title-wrap">
+          <p class="title">이런 사진 찾고 있나요?</p>
+          <p class="desc">좋아하실만한 인테리어 콘텐츠를 추천해드려요</p>
+        </div>
+        <a href="" class="link">더보기</a>
+        <a href="" class="icon more-icon"></a>
+      </div>
+
+      <div class="slide-cont">
+        <div class="swiper sc-recomm-slide">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/sc-recomm01.avif" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/sc-recomm02.avif" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/sc-recomm03.avif" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/sc-recomm04.avif" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/sc-recomm05.avif" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/sc-recomm06.avif" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/sc-recomm07.avif" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="./assets/images/sc-recomm08.avif" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- control -->
+         <button class="btn prev icon icon-prev" aria-label="이전슬라이드"></button>
+         <button class="btn next icon icon-next" aria-label="다음슬라이드"></button>
+      </div>
+    </section>
+
+    <!-- sc-interior-review -->
+    <section class="sc-interior-review">
+      <div class="group-title">
+        <p class="title">유저들의 인테리어 시공 리뷰</p>
+        <a href="" class="link">더보기</a>
+        <a href="" class="icon more-icon"></a>
+      </div>
+
+      <div class="group-list">
+        <ul class="interior-review-list">
+          <li class="interior-review-item">
+            <a href="" class="item">
+              <div class="img-box">
+                <img src="./assets/images/sc-interior-review01.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p class="title">YULIM DESIGN</p>
+                <p class="desc">30년 넘은 오래된 집을 리모델링 하기로 결정하고 정말 많은 업체에 컨택했었습니다. 여러 업체로부터 견적도 받고 대면 미팅도 진행하던 와중에 유림디자인 안준형 실장님과 계약하게 되었습니다. 단순히 집의 구조를 변경하고 모양만 탈바꿈한게 아닌 공간의 분위기가 바뀌었어요. 출퇴근 하고 집에 돌아오면 세상에서 하나뿐인 따뜻하고 부드러운 공간이 절 반기는게,, 정말 행복합니다 :D 예쁜 집 만들어주셔서 감사합니다. 늘 행복하시고 좋은 일 가득하세요!</p>
+              </div>
+            </a>
+          </li>
+          <li class="interior-review-item">
+            <a href="" class="item">
+              <div class="img-box">
+                <img src="./assets/images/sc-interior-review02.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p class="title">한솔하우징</p>
+                <p class="desc">상담부터 친절하게 너무 잘해주셨습니다
+                  저희는 많이 급하게 해서 도면이랑 이부분을 이미지로 만들진 못했어요 ㅠㅠ그래서 하시는 분들은 적어도 한달전 상담 받는거 추천해드려요.중간중간 공사에서도 너무 잘 체크해주시고마음대로 진행 하지 않고 꼭 물어보고 진행 해주시는 부분도 좋았습니다 ㅎㅎ</p>
+              </div>
+            </a>
+          </li>
+          <li class="interior-review-item">
+            <a href="" class="item">
+              <div class="img-box">
+                <img src="./assets/images/sc-interior-review03.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p class="title">디에이치(THE H)디자인</p>
+                <p class="desc">집을 사고 인테리어 업자를 고르는데 정말 오랜 시간이 걸렸습니다. 전화상담으로 여러가지 여쭤보았는데 사장님께서 여러가지 잘 설명해주셨었고, 그이후 견적을 받으러 갔는데 다른 인테리어사장님과는 다르게 3d작업으로 시안도 보여주시고, 그러므로 자재가 이정도 들어가서 견적이 이정도 나온다고 말씀해주셨습니다. 저희는 인테리어를 금액보다는 투명하고 저희의견을 최대한 반영해주는 곳에서 인테리어를 하고 싶었었고, 인테리어를 진행하면서도 집에 직접 가보지 않아도 신뢰가 가고 믿음이 갈만큼 동영상 사진 많이 보내주셔서 사실 많이 가보지 않았습니다 ㅎㅎ</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--sc-planning  -->
+    <section class="sc-planning common-sc">
+      <div class="group-title">
+        <p class="title">오늘의 기획전</p>
+        <a href="" class="link">더보기</a>
+        <a href="" class="icon more-icon"></a>
+      </div>
+
+      <div class="group-list">
+        <ul class="list-item">
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-planning01.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p class="title">역대급 상반기 릴레이 세일</p>
+                <p class="desc">패브릭 릴레이 SALE ~88%</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-planning02.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p class="title">역대급 상반기 릴레이 세일</p>
+                <p class="desc">수납생활 릴레이 SALE ~70%</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-planning03.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p class="title">인기 브랜드 특가부터 제철 별미까지</p>
+                <p  class="desc">여름맞이 FOOD WEEK, 최대 65% 할인!</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/images/sc-planning04.avif" alt="">
+              </div>
+              <div class="text-box">
+                <p class="title">오늘의집 큐레이션 편집샵 오!굿즈</p>
+                <p class="desc">오직 여기서만, O!Goods</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- sc-best -->
+    <section class="sc-best">
+      <div class="group-title">
+        <p class="title">베스트</p>
+        <a href="" class="link">더보기</a>
+        <a href="" class="icon more-icon"></a>
+      </div>
+
+      <div class="slide-cont">
+        <div class="swiper sc-best-category-slide">
+            <ul class="swiper-wrapper categor-list">
+              <li class="swiper-slide categor-item on" data-best=""><a href="" class="item">전체</a></li>
+              <li class="swiper-slide categor-item" data-best="101"><a href="" class="item">가구</a></li>
+              <li class="swiper-slide categor-item" data-best="102"><a href="" class="item">패브릭</a></li>
+              <li class="swiper-slide categor-item" data-best="103"><a href="" class="item">가전.디지털</a></li>
+              <li class="swiper-slide categor-item" data-best="104"><a href="" class="item">주방용품</a></li>
+              <li class="swiper-slide categor-item" data-best="105"><a href="" class="item">식품</a></li>
+              <li class="swiper-slide categor-item" data-best="106"><a href="" class="item">데코.식물</a></li>
+              <li class="swiper-slide categor-item" data-best="107"><a href="" class="item">조명</a></li>
+              <li class="swiper-slide categor-item" data-best="108"><a href="" class="item">수납.정리</a></li>
+              <li class="swiper-slide categor-item" data-best="109"><a href="" class="item">생활용품</a></li>
+              <li class="swiper-slide categor-item" data-best="110"><a href="" class="item">생필품</a></li>
+              <li class="swiper-slide categor-item" data-best="111"><a href="" class="item">유아.아동</a></li>
+              <li class="swiper-slide categor-item" data-best="112"><a href="" class="item">반려동물</a></li>
+              <li class="swiper-slide categor-item" data-best="113"><a href="" class="item">캠핑.레저</a></li>
+              <li class="swiper-slide categor-item" data-best="114"><a href="" class="item">공구.DIY</a></li>
+              <li class="swiper-slide categor-item" data-best="115"><a href="" class="item">인테리어시공</a></li>
+              <li class="swiper-slide categor-item" data-best="116"><a href="" class="item">장보기</a></li>
+            </ul>
+        </div>
+         <!-- control -->
+         <button class="btn prev icon icon-prev" aria-label="이전슬라이드"></button>
+         <button class="btn next icon icon-next" aria-label="다음슬라이드"></button>
+      </div>
+
+
+      <div class="group-list">
+        <ul class="best-list" id="bestList">
+         
+        </ul>
+      </div>
+
+    </section>
+  </main>
+
+
+  <!-- 푸터영역 -->
+  <footer class="footer">
+    <h2 class="blind">오늘의집</h2>
+    <div class="common-inner">
+      <div class="footer-wrap">
+        <div class="gruop-cs">
+          <p class="title">고객센터</p>
+          <p class="tel"><a href="tel:+01010101">1670-0876</a>09:00~18:00</p>
+          <p class="desc">평일: 전체 문의 상담 가능 <br>주말, 공휴일: 오늘의집 직접배송<br>이사/시공/수리 문의 상담 가능</p>
+          <div class="group-link">
+            <a href="">카톡 상담(평일 09:00~18:00)</a>
+            <a href="">이메일 문의</a>
+          </div>
+        </div>
+        
+        <div class="group-notice">
+          <a href="">회사소개</a>
+          <a href="">채용정보</a>
+          <a href="">이용약관</a>
+          <a href="" class="bold">개인정보 처리방침</a>
+          <a href="">공지사항</a>
+          <a href="">안전거래센터</a>
+          <a href="">입점신청</a>
+          <a href="">제휴/광고 문의</a>
+          <a href="">사업자 구매회원</a>
+          <a href="">시공파트너 안내</a>
+          <a href="">상품광고 소개</a>
+          <a href="">고객의소리</a>
+        </div>
+        <div class="group-info">
+          <address class="addr-area">
+            <p>(주)버킷플레이스|대표이사 이승재|서울 서초구 서초대로74길 4 삼성생명서초타워 25층, 27층</p>
+            <p>contact@bucketplace.net|사업자등록번호 119-86-91245 사업자정보확인</p>
+            <p>통신판매업신고번호 제2018-서울서초-0580호</p>
+          </address>
+          <div class="cont-box">
+            <div class="cont-wrap flex">
+              <div class="img-box">
+                <img src="./assets/images/footer01.png" alt="">
+              </div>
+              <div class="text-box">
+                <p>오늘의집 서비스 운영<br>2021. 09. 08 ~ 2024. 09. 07
+                </p>
+              </div>
+            </div>
+            <div class="cont-wrap">
+              <div class="img-box">
+                <img src="./assets/images/footer02.png" alt="">
+              </div>
+              <div class="text-box">
+                <p>고객님이 현금결제한 금액에 대해 우리은행과 채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+          <p class="desc">(주)버킷플레이스는 통신판매중개자로 거래 당사자가 아니므로, 판매자가 등록한 상품정보 및 거래 등에 대해 책임을 지지 않습니다. 단, (주)버킷플레이스가 판매자로 등록 판매한 상품은 판매자로서 책임을 부담합니다.</p>
+          <p class="copy">Copyright 2014. bucketplace, Co., Ltd. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
